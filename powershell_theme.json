@@ -73,6 +73,14 @@
           "template": "  {{ .Context }} "
         },
         {
+          "type": "az",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#9ec3f0",
+          "template": " ﴃ {{ .Name }}"
+        },
+        {
           "type": "executiontime",
           "style": "powerline",
           "powerline_symbol": "",
