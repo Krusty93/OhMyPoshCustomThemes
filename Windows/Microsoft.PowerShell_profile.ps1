@@ -26,7 +26,7 @@ Set-Alias -Name "t" -Value "terraform"
 Set-Alias -Name "d" -Value "docker"
 Set-Alias -Name "k" -Value "kubectl"
 
-oh-my-posh init pwsh --config "https://raw.githubusercontent.com/Krusty93/OhMyPoshCustomThemes/main/powershell_theme.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/Krusty93/OhMyPoshCustomThemes/main/Windows/powershell_theme.json" | Invoke-Expression
 
 Add-Content -Path $PROFILE.CurrentUserAllHosts -Value '$(/opt/homebrew/bin/brew shellenv) | Invoke-Expression'
 
